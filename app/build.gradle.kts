@@ -24,10 +24,10 @@ android {
 
     buildTypes {
         debug {
-            isDebuggable = false
-            isShrinkResources = true
-            isMinifyEnabled = true
-            isCrunchPngs = true
+            isDebuggable = true
+            isShrinkResources = false
+            isMinifyEnabled = false
+            isCrunchPngs = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
